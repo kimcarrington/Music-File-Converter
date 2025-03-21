@@ -9,7 +9,7 @@ def is_safe_file(file_path: str, max_size_mb: int = 10) -> bool:
     if os.path.getsize(file_path) > max_size_mb * 1024 * 1024:
         return False
     # Confirm file type
-    if not file_path.lower().endswith(('.xml', '.musicxml')):
+    if not file_path.lower().endswith(('.xml', '.musicxml', '.mxl')):
         return False
     return True
 
