@@ -15,7 +15,8 @@ Converts MusicXML files to MIDI
   ```git clone https://github.com/kimcarrington/music-file-converter.git```
   
   ```cd music-file-converter```
-2. Create a virtual environment
+  
+  2. Create a virtual environment
 
   `python3 -m venv venv`
 
