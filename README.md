@@ -15,7 +15,14 @@ Converts MusicXML files to MIDI
   ```git clone https://github.com/kimcarrington/music-file-converter.git```
   
   ```cd music-file-converter```
-2. Set up a virtual environment (recommended)
-3. Install required packages
+2. Create a virtual environment
 
-## Usage
+  `python3 -m venv venv`
+
+3. Activate virtual environment
+
+  `source venv/bin/activate`
+
+4. Install dependencies
+
+  `pip3 install -r requirements.txt`
