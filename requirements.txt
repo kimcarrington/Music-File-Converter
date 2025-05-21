@@ -1,0 +1,3 @@
+defusedxml    
+music21
+os
